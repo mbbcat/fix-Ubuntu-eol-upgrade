@@ -1,0 +1,2 @@
+Disclaimer
+⚠️ USE AT YOUR OWN PERIL ⚠️ These scripts modify system files and run distribution upgrades. They are provided as‑is with no warranty. You are solely responsible for the outcome. Always back up your system before running.

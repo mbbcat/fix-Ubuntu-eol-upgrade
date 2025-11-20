@@ -1,0 +1,6 @@
+### Logs
+### All actions and apt output are written to:
+
+/var/log/fix-eol-upgrade.log
+
+
