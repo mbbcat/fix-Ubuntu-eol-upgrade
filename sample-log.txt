@@ -1,0 +1,26 @@
+2025-11-20T16:00:12 :: === Starting fix-eol-upgrade for Ubuntu 22.10 (kinetic) ===
+2025-11-20T16:00:12 :: User responsibility response: y
+2025-11-20T16:00:15 :: User proceed response: y
+2025-11-20T16:00:15 :: Backup directory ensured at /etc/apt/backup-eolfix
+2025-11-20T16:00:15 :: Backed up /etc/apt/sources.list -> /etc/apt/backup-eolfix/sources.list.2025-11-20-1600
+2025-11-20T16:00:15 :: Backed up /etc/apt/sources.list.d/ubuntu.sources -> /etc/apt/backup-eolfix/ubuntu.sources.2025-11-20-1600
+2025-11-20T16:00:16 :: Rewrote /etc/apt/sources.list to point at old-releases
+2025-11-20T16:00:16 :: Rewrote /etc/apt/sources.list.d/ubuntu.sources to point at old-releases
+2025-11-20T16:00:17 :: Running apt update...
+Hit:1 http://old-releases.ubuntu.com/ubuntu kinetic InRelease
+Fetched 12.3 MB in 2s (6,200 kB/s)
+Reading package lists... Done
+2025-11-20T16:00:19 :: Running apt full-upgrade...
+Calculating upgrade... Done
+The following packages will be upgraded:
+  base-files libc6 libssl3
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4,512 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Fetched 4,512 kB in 1s (3,800 kB/s)
+2025-11-20T16:00:22 :: Running do-release-upgrade...
+Checking for a new Ubuntu release
+Get:1 Upgrade tool [1,234 kB]
+Fetched 1,234 kB in 0s (1,200 kB/s)
+Upgrades to Ubuntu 23.04 available
+2025-11-20T16:00:30 :: === Completed fix-eol-upgrade ===
