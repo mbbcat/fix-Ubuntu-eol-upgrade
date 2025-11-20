@@ -1,0 +1,2 @@
+chmod +x wsl-eol-fix.sh
+./wsl-eol-fix.sh
